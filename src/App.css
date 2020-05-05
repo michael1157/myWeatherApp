@@ -1,0 +1,74 @@
+body{
+    background-image: url('http://www.bizhi360.com/allimg/bpic/92/6792.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+.card{
+    background-image: linear-gradient(black, grey);
+    color:white;
+    margin:30px auto;
+    margin-top:100px;
+    border-radius:15px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    width:900px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    float:center;
+    }
+.title{
+    color:white;
+    margin:20px;
+    font-size: 50px;  
+}
+.intro{
+    text-align: center;
+    margin:20px;
+}
+.input-city,.input-country{
+    background:lightgoldenrodyellow;
+    border:none;
+    margin: 10px;
+    outline:none;
+    padding:10px;
+    font-size: 14px;
+    border-radius:5px;
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.1);
+}
+.input-city{
+    float:left;
+    width: 200px;
+    margin-left:100px;
+}
+.input-country{
+    float:right;
+    width: 200px;
+    margin-right:100px;
+}
+.input-city,.input-country:hover{
+    background:lightsalmon;
+    transition:0.4s linear;
+}
+.submit-button{
+    border-radius:12px;
+    background-color:orange;
+    color:black;
+    font-size: 14px;
+    padding:12px 40px;
+    border:1px;
+    cursor:pointer;
+    transition:0.4s linear;
+    margin-top:50px;
+}
+.submit-button:hover{
+    background:green;
+    color:white;
+    transform:scale(1.1);
+    transition:0.4s linear;
+  }
+.weather{
+    font-size: 18px;
+    margin:20px;
+}
